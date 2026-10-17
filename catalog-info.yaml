@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: org-profile
+  title: Organisation profile
+  description: "The organisation's front page (the .github repository): the repository map and the conventions."
+  annotations:
+    github.com/project-slug: platform-boutique/.github
+    backstage.io/techdocs-ref: dir:.
+  tags: [documentation]
+  links:
+    - { url: "https://github.com/platform-boutique/.github", title: "Repository", icon: github }
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/maintainers
+  system: developer-portal

@@ -1,0 +1,16 @@
+site_name: platform-boutique
+site_description: The organisation's front page.
+repo_url: https://github.com/platform-boutique/.github
+edit_uri: edit/main/docs/
+nav:
+  - Overview: index.md
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+plugins:
+  - techdocs-core
+extra_css:
+  - stylesheets/extra.css
